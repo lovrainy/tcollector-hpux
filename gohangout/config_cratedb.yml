@@ -1,0 +1,14 @@
+inputs:
+    - TCP:
+        network: tcp4
+        address: 10.1.248.11:9192
+        codec: plain
+
+Remove:
+    - fields: ["@timestamp"]
+
+outputs:
+    - Kafka:
+        topic: "epay_db"
+        codec: json
+        bootstrap.servers: "10.1.248.11:9092"

@@ -1,0 +1,13 @@
+nohup: 忽略输入
+E1206 11:16:07.162055    4535 group_consumer.go:420] failed to send heartbeat: The group is rebalancing, so a rejoin is needed.
+E1211 00:21:47.023735    4535 simple_consumer.go:371] fetch error:read tcp 10.1.248.12:40509->10.1.248.11:9092: i/o timeout
+E1211 00:21:47.023803    4535 fetch_response.go:284] could not read enough bytes(4) to get fetchresponse length. read 0 bytes
+E1211 00:21:48.320023    4535 group_consumer.go:420] failed to send heartbeat: read tcp 10.1.248.12:39458->10.1.248.11:9092: i/o timeout
+E1211 00:21:51.320713    4535 broker.go:181] could not conn to 10.1.248.11:9092: dial tcp 10.1.248.11:9092: connect: no route to host
+E1211 00:21:51.320735    4535 simple_consumer.go:371] fetch error:dial tcp 10.1.248.11:9092: connect: no route to host
+E1211 00:21:51.320767    4535 fetch_response.go:284] could not read enough bytes(4) to get fetchresponse length. read 0 bytes
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入
+nohup: 忽略输入

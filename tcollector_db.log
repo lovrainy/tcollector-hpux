@@ -1,0 +1,4 @@
+./tcollector[15]: readlink:  not found.
+Could not find a Python interpreter
+Starting /home/weblogic/tcollector_db/tcollector.py
+./tcollector[4]: 27914 Killed

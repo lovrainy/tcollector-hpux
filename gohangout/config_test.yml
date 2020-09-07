@@ -1,0 +1,14 @@
+inputs:
+    - TCP:
+        network: tcp4
+        address: 10.1.248.11:9194
+        codec: plain
+
+Remove:
+    - fields: ["@timestamp"]
+
+outputs:
+    - Kafka:
+        topic: "testhp"
+        codec: json
+        bootstrap.servers: "10.1.248.12:9092"
